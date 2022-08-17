@@ -212,7 +212,7 @@
 
 // }
 
-// double porcentagem =  (totalChiquinha + totalChaves + totalQuico +totalNulo) * ((double) totalNulo / 100) ;
+// double porcentagem =  ((double)totalNulo/(totalChiquinha + totalChaves + totalQuico +totalNulo)) * 100;
         
 //         Console.WriteLine($"Número de votos Chaves: {totalChaves}");
 //         Console.WriteLine($"Número de votos Chiquinha: {totalChiquinha}");
@@ -229,6 +229,17 @@
 //         } else{
 //             Console.WriteLine($"Não Houve Vencedor");
 //         }
+
+
+
+      
+
+
+
+
+
+
+
 
 
 
